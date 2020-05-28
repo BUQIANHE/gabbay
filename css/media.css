@@ -1,13 +1,21 @@
 @media screen and (max-width: 1700px){
   .wid{width: 94%;}
+  .cont-info .info-items .right-map img{width: auto; height: 100%;}
+}
+@media screen and (max-width: 1100px){
+  .footer .in-fot{flex-wrap: wrap;}
+  .footer .in-fot>div{width: 20%;}
+  .footer .in-fot .fot-right{width: 30%;margin-right: auto;}
+
 }
 @media screen and (max-width: 950px){
   .top-nav,.nav-inner-box{height: 65px;}
   .logo-pic{width: 50px;}
   .icon-menu:before{font-size: 28px;color: #fff;}
-  .top-bar{display: none;}
+  .top-bar{display: none;height: auto;}
   .top-bar .icon-cogwheel,.top-nav .nav li .dp-items .dp-list>a>span,.top-nav .nav li.nav-pro>a>span{display: none;}
   .top-nav .menu-ico,.top-nav .nav li.home,.top-nav .nav li .dp-items{display: block;}
+  .top-bar .nav-bar ul li{flex-direction: column;align-items: flex-start;}
   .top-nav .nav li.nav-pro>a{font-family: 'mont-lt';}
   .top-nav .nav li .dp-items{position: unset;padding: 2% 0 0 0}
   .top-nav .nav li .dp-items .dp-list{border-bottom: none;}
@@ -20,11 +28,22 @@
   .top-bar .nav-bar .sea_cn,.top-bar .nav-bar .sea_cn form input,.top-bar .nav-bar ul{width: 100%;}
   .top-bar .nav-bar .sea_cn form{width: 100%;margin: 0;}
   .top-bar .nav-bar .sea_cn .cn{width: auto;justify-content: flex-start;margin-top: 1%;font-family: 'mont-bd';font-size: 16px;}
+  .footer .in-fot>div{width: 25%;}
 
 }
-
-
+@media screen and (max-width: 750px){
+  .footer .in-fot>div{width: 30%;}
+  .footer .in-fot .fot-right{width: 100%;}
+}
+@media screen and (max-width: 600px){
+  .footer .in-fot>div{width: 50%;}
+}
 @media screen and (max-width: 500px){
   .top-bar .nav-bar ul li{padding: 3% 0;}
   .top-nav .nav li .dp-items{padding: 3% 0 0 0}
+}
+@media screen and (max-width: 450px){
+  .footer .in-fot>div{width: 100%;}
+  .footer .fot-left a.fot-logo{margin-bottom: 5%;width: 65px;}
+  .footer .fot-left a{margin: 3% 0;}
 }
