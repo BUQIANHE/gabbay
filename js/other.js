@@ -22,4 +22,22 @@ $(function(){
     $(this).slideToggle();
   });
 
+
+  // pro detail js
+  $('.slide-item').bxSlider({
+    slideWidth: 1660,
+    minSlides: 1,
+    maxSlides: 1,
+    moveSlides: 1,
+    startSlide: 0,
+    slideMargin: 0,
+    auto: true,
+    autoControls: false,
+    pager: false,
+    controls: true,
+    speed: 500,
+  });
+   
+
+
 })
