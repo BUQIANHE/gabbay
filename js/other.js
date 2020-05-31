@@ -37,7 +37,5 @@ $(function(){
     controls: true,
     speed: 500,
   });
-   
-
 
 })

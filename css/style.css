@@ -60,7 +60,7 @@ a {
     width:230px;
 }
 #slider4{
-	line-height:0;
+	/* line-height:0; */
 	text-align:center;
 }
 #slider4 ul{
